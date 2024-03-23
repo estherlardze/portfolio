@@ -5,8 +5,8 @@ const Navbar = () => {
  const [menu, setMenu] = useState(false)
 
   return (
-    <nav className='z-40'>
-       <section className='flex justify-between items-center shadow-lg p-5'>
+    <nav className=''>
+       <section className='flex justify-between items-center z-40 shadow-lg p-5'>
          <h1 className='text-2xl font-bold'>OE</h1>
          <div className='sm:flex space-x-5 hidden'>
             <p className='hover:text-yellow-500'>Tech Stack</p>

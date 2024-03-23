@@ -39,7 +39,7 @@ const Skills = () => {
               <p>{skill.name}</p>
               <p>{skill.cent}%</p>
             </div>
-             <div className="w-full bg-brown-900 rounded-full h-2.5 mb-4">
+             <div className="w-full bg-[#171716] rounded-full h-2.5 mb-4">
                <div
                  className={`bg-yellow-500 h-2.5 rounded-full `} 
                  style={{ width: `${skill.cent}%` }}

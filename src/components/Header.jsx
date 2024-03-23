@@ -9,7 +9,7 @@ const Header = () => {
          <p className='my-3'>I am a software developer, frontend developer</p>
          <a 
            href="#" 
-           className='hover:text-red-600 transition-all duration-300 ease-in-out transform hover:translate-y-1'>
+           className='hover:text-yellow-500 transition-all duration-300 ease-in-out transform hover:translate-y-1'>
            <RiArrowDownDoubleFill size={70}/>
          </a>
       </div>

@@ -20,9 +20,9 @@ export default function App() {
   }, []);
 
   return (
-    <div className='bg-black/95 text-white z-10'>
+    <div className='bg-black/95 text-white'>
       <Header />
-      <div className={isNavbarSticky ? 'sticky top-0' : ''}>
+      <div className={isNavbarSticky ? 'sticky top-0cd p' : ''}>
         <Navbar />
       </div>
       <About />
