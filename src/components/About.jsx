@@ -3,7 +3,7 @@ import ab from '../assets/ab.jpg'
 
 const About = () => {
   return (
-    <div className='w-[80%] mx-[10%] my-6 grid grid-cols-2 justify-center items-center gap-6'> 
+    <div className='w-[80%] mx-[10%] my-[50px] grid grid-cols-2 justify-center items-center gap-6'> 
      <img src={ab} alt="about me" className='col-span-2 sm:col-span-1 z-0 w-full h-[300px]'/>
      <div>
       <p className='col-span-2 sm:col-span-1'>

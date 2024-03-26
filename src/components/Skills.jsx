@@ -31,7 +31,10 @@ const skills = [
 const Skills = () => {
   return (
     <section className='w-[80%] mx-[10%] my-[50px]'>
-     <h1 className='text-lg mb-3'>Tech Stacks</h1>
+      <div className='mb-3'>
+       <h1 className='font-bold  text-3xl'>Skills</h1>
+       <div className='h-1 w-7 bg-yellow-500'></div>
+      </div>
        <div className='grid grid-cols-2 gap-6'>
          {skills.map((skill, index) =>(
            <article key={index} className='col-span-2 sm:col-span-1'>
