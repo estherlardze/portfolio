@@ -1,30 +1,11 @@
-import { useState, useEffect } from 'react';
 import { Navbar, Header, Skills, Footer, Projects, About } from './components';
 
 export default function App() {
-  const [isNavbarSticky, setIsNavbarSticky] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsNavbarSticky(true);
-      } else {
-        setIsNavbarSticky(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
-    <div className='bg-black/95 text-white'>
-      <Header />
-      <div className={isNavbarSticky ? 'sticky top-0cd p' : ''}>
+    <div className='bg-[#141212] text-white'>
         <Navbar />
-      </div>
+        <Header />
       <About />
       <Skills />
       <Projects />
