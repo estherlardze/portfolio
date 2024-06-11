@@ -6,7 +6,7 @@ export const projects = [
         {
           image: dev2win,
           name: 'Dev2win',
-          content: 'A pioneering platform revolutionizing student career development. Through project-based learning, personalized mentorship, and career guidance.',
+          content: 'A pioneering platform revolutionizing student career development through project-based learning, personalized mentorship, and career guidance.',
           github:'https://github.com/Dev2Win',
           live:'https://dev-2-winn.vercel.app/',
         },

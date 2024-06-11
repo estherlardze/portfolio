@@ -4,6 +4,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import {  RiReactjsLine } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const skills = [
   {
@@ -31,12 +33,21 @@ const skills = [
     name: "Typescript",
     logo: SiTypescript,
   },
+  {
+    name: "Next Js",
+    logo: TbBrandNextjs,
+  },
+  {
+    name: "TailwindCSS",
+    logo: SiTailwindcss,
+  },
 ];
 const Skills = () => {
+  
   return (
-    <section className="w-[80%] mx-auto my-[200px]  2xl:w-[1500px]">
+    <section className="w-[90%] sm:w-[80%] mx-auto my-[200px]  2xl:w-[1500px] overflow-hidden" id="stack">
       <div className="grid grid-cols-2 gap-8">
-        <div className="col-span-2 sm:col-span-1">
+        <div className="col-span-2 sm:col-span-1" data-aos="fade-right">
           <h1 className="font-bold  text-3xl">Technologies</h1>
           <div className="h-1 w-7 bg-yellow-500"></div>
           <p className="mt-4">I have more than 2 years of hands-on experience with these technologies.</p>
@@ -44,7 +55,7 @@ const Skills = () => {
 
         <div className="grid grid-cols-2 gap-6 col-span-2 sm:col-span-1">
           {skills.map((skill, index) => (
-            <article key={index} className="col-span-2 sm:col-span-1 flex items-center gap-2 text-yellow-500">
+            <article key={index}  data-aos="fade-left"className="col-span-2 sm:col-span-1 flex items-center gap-2 text-yellow-500">
                <skill.logo size={34}/>
                <p className="text-lg font-semibold">{skill.name}</p>             
             </article>
