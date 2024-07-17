@@ -6,7 +6,7 @@ export const projects = [
         {
           image: dev2win,
           name: 'P2P',
-          content: 'A peer to peer tutor platform where students needing academic assistance can book their peers for tutorials at a cost: still user development',
+          content: 'A peer to peer tutor platform where students needing academic assistance can book their peers for tutorials at a cost: project still under development',
           github:'https://github.com/estherlardze/p2p-tutoring',
           live:'https://p2p-tutoring.vercel.app/',
           stack :[
